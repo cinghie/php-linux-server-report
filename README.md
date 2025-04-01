@@ -7,6 +7,10 @@ Generate and send a monthly Linux Server Report
 sudo apt-get install pandoc
 ```
 
+```
+sudo apt-get install texlive-latex-base
+```
+
 ## Create script and set permission
 
 ```
@@ -93,4 +97,10 @@ else
   echo "Pandoc non è installato. Installa pandoc per generare il PDF."
 fi
 
+```
+
+## Run Scripts
+
+```
+sudo ./generate_report.sh
 ```
