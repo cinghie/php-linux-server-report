@@ -1,2 +1,26 @@
-# linux-server-report
+# Linux Server Report
 Generate and send a monthly Linux Server Report
+
+## Install Tools
+
+...
+sudo apt-get install pandoc
+...
+
+## Create script and set permission
+
+...
+cd /usr/local/bin
+...
+
+...
+nano generate_report.sh
+...
+
+...
+chmod +x generate_report.sh
+...
+
+## Set Script
+
+
